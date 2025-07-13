@@ -228,7 +228,7 @@ Output:
 THM{p1alntExtAtt4ckcAnr3alLyhUrty0urxOr}
 ```
 
-Enter the key `8ndEw` back into Netcat to get:
+Enter the key `U155b` back into Netcat to get:
 
 ---
 
