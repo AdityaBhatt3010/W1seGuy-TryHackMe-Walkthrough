@@ -2,10 +2,10 @@
 
 📍 **Lab Link:** [https://tryhackme.com/room/w1seguy](https://tryhackme.com/room/w1seguy)
 
-🔒 **Category:** Cryptography
-🧪 **Techniques:** XOR Decryption, Brute Force, CyberChef, Python Automation
-⚡ **Difficulty:** Beginner–Intermediate
-🔑 **Flags:** 2 (XOR Key + Final Flag)
+🔒 **Category:** Cryptography <br/>
+🧪 **Techniques:** XOR Decryption, Brute Force, CyberChef, Python Automation <br/>
+⚡ **Difficulty:** Beginner–Intermediate <br/>
+🔑 **Flags:** 2 (XOR Key + Final Flag) <br/>
 
 <img width="1071" height="303" alt="Cover" src="https://github.com/user-attachments/assets/a14b8c3e-458e-4c72-8304-9f28cc2fe213" />
 
