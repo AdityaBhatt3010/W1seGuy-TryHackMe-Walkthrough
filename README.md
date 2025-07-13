@@ -7,6 +7,8 @@
 ⚡ **Difficulty:** Beginner–Intermediate
 🔑 **Flags:** 2 (XOR Key + Final Flag)
 
+<img width="1071" height="303" alt="Cover" src="https://github.com/user-attachments/assets/a14b8c3e-458e-4c72-8304-9f28cc2fe213" />
+
 ---
 
 ## 🧩 TL;DR
@@ -78,6 +80,8 @@ if __name__ == '__main__':
     server.serve_forever()
 ```
 
+<img width="1919" height="1079" alt="1" src="https://github.com/user-attachments/assets/c23e2de9-f94d-4699-aa0c-9b477b1ab736" /> <br/>
+
 This code sets up a TCP server, generates a **random 5-character key**, XORs the flag with it, and sends the encoded hex to the client. If the user replies with the correct key, they get **flag 2**.
 
 ---
@@ -94,6 +98,8 @@ Sample output:
 This XOR encoded text has flag 1: 8d6e6445643e5d...
 What is the encryption key?
 ```
+
+<img width="1385" height="109" alt="4" src="https://github.com/user-attachments/assets/d51caf43-7ef6-45f3-8585-a010150927c8" /> <br/>
 
 ✅ Save that hex string — it’s your encrypted **flag 1**.
 
@@ -117,7 +123,7 @@ We know TryHackMe flags begin with `THM{`. This is called a **known-plaintext at
 
 ---
 
-## 🧑‍🍳 Quick CyberChef PoC
+## 🧑‍🍳 Quick CyberChef 
 
 1. Input: Your encrypted string (in hex).
 2. Operation 1: From Hex
@@ -131,8 +137,6 @@ But brute-forcing the **5th character** manually? That ain’t it. Time to autom
 ## 💣 Phase 2 – Python Brute Forcer 🦍
 
 Let’s brute-force the rest of the key and decode the flag.
-
----
 
 ### 🧨 `w1seguy_xor_crack.py`
 
@@ -195,6 +199,9 @@ if __name__ == "__main__":
         print("[-] No matching flag found.")
 ```
 
+<img width="1918" height="1079" alt="2" src="https://github.com/user-attachments/assets/11dfae69-af7d-413f-867c-7a34e771f8e2" /> <br/>
+<img width="1919" height="1079" alt="3" src="https://github.com/user-attachments/assets/f0cdf294-ac41-4b57-a93e-9d6b218fb8e8" /> <br/>
+
 ---
 
 ## 🧪 Sample Execution
@@ -210,6 +217,8 @@ Output:
 [+] Key Found: 8ndEw
 [+] Decrypted Flag: THM{p1alntExtAtt4ckcAnr3alLyhUrty0urxOr}
 ```
+
+<img width="1268" height="247" alt="5" src="https://github.com/user-attachments/assets/a78de6af-3e13-47d0-b681-7ed666a77cf4" /> <br/>
 
 ---
 
@@ -228,6 +237,8 @@ Enter the key `8ndEw` back into Netcat to get:
 ```
 THM{BrUt3_ForC1nG_XOR_cAn_B3_FuN_nO?}
 ```
+
+<img width="1382" height="219" alt="6" src="https://github.com/user-attachments/assets/9b21e71c-95a9-4a23-a219-990609e41b85" />  <br/>
 
 ---
 
