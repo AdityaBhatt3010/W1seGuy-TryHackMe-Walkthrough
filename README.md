@@ -207,14 +207,14 @@ if __name__ == "__main__":
 ## 🧪 Sample Execution
 
 ```bash
-python3 w1seguy_xor_crack.py -e 8d6e6445643e5d...
+python3 w1seguy_xor_crack.py -e 0179...
 ```
 
 Output:
 
 ```
-[+] Discovered key prefix: 8ndE
-[+] Key Found: 8ndEw
+[+] Discovered key prefix: U155
+[+] Key Found: U155b
 [+] Decrypted Flag: THM{p1alntExtAtt4ckcAnr3alLyhUrty0urxOr}
 ```
 
